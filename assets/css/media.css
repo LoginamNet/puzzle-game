@@ -1,0 +1,157 @@
+@media (max-width: 1600px) {
+
+    .game-field {
+        width: 35%;
+    }
+
+    .win-box,
+    .score-box {
+        width: 37%;
+    }
+
+    .game-square {
+        font-size: 1.9rem;
+    }
+
+    .statistics-box,
+    .control-box,
+    .sizes-box,
+    .settings-box {
+        width: 34%; 
+    }
+
+}
+
+
+@media (max-width: 1280px) {
+
+    .game-field {
+        width: 50%;
+    }
+
+    .game-square {
+        font-size: 2rem;
+    }
+
+    .win-box,
+    .score-box {
+        width: 53%;
+    }
+
+    .statistics-box,
+    .control-box,
+    .sizes-box,
+    .settings-box {
+        width: 48%; 
+    }
+
+}
+
+@media (max-width: 960px) {
+
+    .game-field {
+        width: 60%;
+    }
+
+    .game-square {
+        font-size: 1.8rem;
+    }
+
+    .win-box,
+    .score-box {
+        width: 63%;
+    }
+
+    .statistics-box,
+    .control-box,
+    .sizes-box,
+    .settings-box {
+        width: 58%; 
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .game-field {
+        width: 80%;
+    }
+
+    .game-square {
+        font-size: 1.5rem;
+    }
+
+    .win-box,
+    .score-box {
+        width: 83%;
+    }
+
+    .statistics-box,
+    .control-box,
+    .sizes-box,
+    .settings-box {
+        width: 78%; 
+    }
+
+}
+
+@media (max-width: 590px) {
+
+    .game-field {
+        width: 95%;
+    }
+
+    .game-square {
+        font-size: 1.5rem;
+    }
+
+    .win-box,
+    .score-box {
+        width: 97%;
+        font-size: 2rem;
+    }
+
+    .win-box span,
+    .score-box span{
+        font-size: 0.8rem;
+    }
+
+    .statistics-box,
+    .control-box,
+    .sizes-box,
+    .settings-box {
+        width: 92%; 
+    }
+
+    .statistics-box {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 70px;
+    }
+
+    .timer-box,
+    .moves-box {
+        font-size: 1.3rem;
+        width: 100%;
+        text-align: start;
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .game-field,
+    .game-square,
+    .button {
+        border-radius: 10px;
+    }
+
+    .button {
+        font-size: 0.7rem;
+    }
+
+    .game-square {
+        font-size: 1.2rem;
+    }
+
+}
